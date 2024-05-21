@@ -1,0 +1,32 @@
+.featured-item {
+    background-image: url("img_parallax.jpg");
+    /* min-height: 500px; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.orderBtn {
+    --hover-bg: #f16a1c96;
+    --hover-text: #000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+}
+
+.orderBtn:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem, -0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.orderBtn:active {
+    transform: translate(0);
+    box-shadow: none;
+}
