@@ -36,7 +36,7 @@ const Testimonial = () => {
                   readOnly
                 ></Rating>
                 <p>{review.details}</p>
-                <h3 className="text-2xl">{review.name}</h3>
+                <h3 className="text-2xl gap-px">{review.name}</h3>
               </div>
             </SwiperSlide>
           ))}
