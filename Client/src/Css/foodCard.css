@@ -1,0 +1,21 @@
+.addCardBtn {
+    --hover-bg: #211b1bf4;
+    color: #edaf29;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: rgba(196, 187, 187, 0.415);
+    transition: 0.2s;
+    border-bottom: 3px solid #ecb641;
+}
+
+.addCardBtn:hover {
+    transform: translate(-0.25rem, -0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.addCardBtn:active {
+    transform: translate(0);
+    box-shadow: none;
+}
