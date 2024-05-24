@@ -1,7 +1,10 @@
+import { Link } from "react-router-dom";
 import BannerCover from "../../../Components/BannerCover";
 import MenuItem from "../../../Components/MenuItem";
+import "../../../Css/menu.css";
 
 const MenuCategory = ({ items, title, coverImg, description }) => {
+  console.log(title);
   return (
     <div>
       {title && (
@@ -15,6 +18,11 @@ const MenuCategory = ({ items, title, coverImg, description }) => {
         {items.map((item) => (
           <MenuItem key={item._id} item={item}></MenuItem>
         ))}
+      </div>
+      <div className="flex  justify-center">
+        <Link to={`/order/${title}`} className="menuBtn mb-5 font-bold ">
+          Order Your Favorites {title}
+        </Link>
       </div>
     </div>
   );

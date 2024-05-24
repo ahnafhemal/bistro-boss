@@ -33,10 +33,10 @@ const Menu = () => {
       ></SectionHeading>
       <MenuCategory items={offered}></MenuCategory>
       {/* desert menu items */}
-      <MenuCategory items={dessert} title={'Dessert'}  coverImg={desertImage}description={'This is very Nice for every one'}></MenuCategory>
-      <MenuCategory items={pizza} title={'Pizza'}  coverImg={pizzaImage}description={'This is very Nice for every one'}></MenuCategory>
-      <MenuCategory items={salad} title={'Salad'}  coverImg={saladImage}description={'This is very Nice for every one'}></MenuCategory>
-      <MenuCategory items={soup} title={'Soup'}  coverImg={soupImage}description={'This is very Nice for every one'}></MenuCategory>
+      <MenuCategory items={dessert} title={'dessert'}  coverImg={desertImage}description={'This is very Nice for every one'}></MenuCategory>
+      <MenuCategory items={pizza} title={'pizza'}  coverImg={pizzaImage}description={'This is very Nice for every one'}></MenuCategory>
+      <MenuCategory items={salad} title={'salad'}  coverImg={saladImage}description={'This is very Nice for every one'}></MenuCategory>
+      <MenuCategory items={soup} title={'soup'}  coverImg={soupImage}description={'This is very Nice for every one'}></MenuCategory>
     </div>
   );
 };

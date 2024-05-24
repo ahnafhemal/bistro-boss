@@ -1,0 +1,22 @@
+.menuBtn {
+    --hover-bg: #f16a1c96;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: var;
+    transition: 0.2s;
+    border-bottom: 4px  solid  #f16a1c96;
+    
+}
+
+.menuBtn:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem, -0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+}
+
+.menuBtn:active {
+    transform: translate(0);
+    box-shadow: none;
+}
